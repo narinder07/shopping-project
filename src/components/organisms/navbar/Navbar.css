@@ -1,8 +1,8 @@
 .shopping-navbar {
   display: flex;
   align-items: center;
+  background-color: #130c64ac;
   justify-content: space-between;
-  background-color: #130c64af;
   width: 100%;
   padding: 16px 7%;
 }
@@ -49,10 +49,11 @@
   font-size: 12px;
   padding: 0 6px;
   display: flex;
+  color: white;
   align-items: center;
   justify-content: center;
   top: 6px;
   right: -8px;
   border-radius: 50px;
-  background-color: red;
+  background-color: #d00067;
 }
