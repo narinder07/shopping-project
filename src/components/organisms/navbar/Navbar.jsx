@@ -14,7 +14,7 @@ const Navbar = (props) => {
   const cart = useSelector((state) => state.cart.cart);
 
   return (
-    <div className="shopping-navbar ">
+    <div className="shopping-navbar sticky-top ">
       <Logo {...props} />
       <div className="menu-links">
         <UnOrderList {...props} />
