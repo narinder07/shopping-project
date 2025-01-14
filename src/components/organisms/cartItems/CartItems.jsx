@@ -49,7 +49,7 @@ const CartItems = () => {
                     <MdDelete
                       style={{
                         color: "red",
-                        fontSize: "40px",
+                        fontSize: "25px",
                         cursor: "pointer",
                       }}
                       onClick={() => {
@@ -72,7 +72,7 @@ const CartItems = () => {
                         dispatch(incrementQty({ id: productsItems.id }))
                       }
                     />
-                    <span className="mx-3 fs-3">{productsItems.qty}</span>
+                    <span className="mx-3">{productsItems.qty}</span>
                     <AiOutlineMinusCircle
                       style={{
                         color: "red",

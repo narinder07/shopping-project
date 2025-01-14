@@ -37,7 +37,7 @@ const Products = () => {
         ) : (
           <div className="row g-4">
             {products.map((productsItems, index) => (
-              <div key={index} className="col-lg-3">
+              <div key={index} className="col-lg-3 col-md-6">
                 <div className="text-center border py-3">
                   <img
                     src={productsItems.image}
