@@ -1,7 +1,12 @@
-import Navbar from "./components/organisms/navbar/Navbar";
+import ShoppingApp from "./routes/ShoppingApp";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const App = () => {
-  return <Navbar></Navbar>;
+  return (
+    <Router>
+      <ShoppingApp />
+    </Router>
+  );
 };
 
 export default App;

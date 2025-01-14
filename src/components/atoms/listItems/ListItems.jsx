@@ -1,9 +1,10 @@
 import "./ListItems.css";
+import { NavLink } from "react-router-dom";
 
 const ListItems = ({ href, label }) => {
   return (
     <li>
-      <a href={href}>{label}</a>
+      <NavLink to={href}>{label}</NavLink>
     </li>
   );
 };
