@@ -1,12 +1,8 @@
-import React from "react";
+import "./Button.css";
 
 const Button = ({ label, onClick }) => {
   return (
-    <button
-      onClick={onClick}
-      style={{ border: "none", padding: "6px 10px" }}
-      className="bg-success text-white "
-    >
+    <button onClick={onClick} style={{ border: "none", padding: "6px 10px" }}>
       {label}
     </button>
   );
