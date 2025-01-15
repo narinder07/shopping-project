@@ -3,6 +3,7 @@
   align-items: center;
   background-color: #130c64ac;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 0 6%;
 }
@@ -56,4 +57,14 @@
   right: -8px;
   border-radius: 50px;
   background-color: #d00067;
+}
+
+@media only screen and (max-width: 554px) {
+  .shopping-navbar {
+    padding: 0 3%;
+  }
+  .menu-links li a {
+    padding: 0 7px;
+    font-size: 14px;
+  }
 }
