@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   heroProps: {
-    label: "Here is the best products in best price",
+    label: "Here are the best products at the best price",
   },
 };
 
